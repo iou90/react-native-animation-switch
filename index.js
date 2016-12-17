@@ -1,12 +1,7 @@
 'use strict';
 
-import {
-  NativeModules,
-  Platform
-} from 'react-native';
+import { NativeModules } from 'react-native';
 
-const nativeModule = NativeModules.RCTAnimationSwitch;
+const AnimationSwitch = NativeModules.AnimationSwitch;
 
-export function setAnimationsEnabled(flag) {
-  nativeModule.setAnimationsEnabled(flag);
-}
+export default AnimationSwitch;
