@@ -10,6 +10,6 @@
 #import <UIKit/UIKit.h>
 #import "RCTBridgeModule.h"
 
-@interface RCTAnimationSwitch : NSObject
+@interface RCTAnimationSwitch : NSObject <RCTBridgeModule>
 
 @end
